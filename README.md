@@ -1,4 +1,4 @@
-## Desafio Corelab:
+## Desafio:
 
 Você tem a tarefa de criar um aplicativo da Web que permita aos usuários criar e gerenciar suas listas de tarefas. O aplicativo deve consistir em uma página da Web responsiva construída em React e uma API construída em PHP Laravel para armazenar e gerenciar as listas de tarefas.
 
