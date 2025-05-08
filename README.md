@@ -1,80 +1,97 @@
-## Desafio:
+# Corelab Web Challenge
 
-Você tem a tarefa de criar um aplicativo da Web que permita aos usuários criar e gerenciar suas listas de tarefas. O aplicativo deve consistir em uma página da Web responsiva construída em React e uma API construída em PHP Laravel para armazenar e gerenciar as listas de tarefas.
+Este é um projeto de gerenciamento de tarefas desenvolvido com React, Sass e Mantine. O aplicativo permite criar, ler, atualizar e excluir itens de tarefas, além de marcar favoritos e definir cores para cada tarefa.
 
-### Os repositórios
-O [repositório frontend](https://github.com/corelabbr/corelab-challenge-web-app-php)
+## Funcionalidades
 
-Se você se sentir mais confortável, pode escolher outro framework React e nos mostrar suas habilidades.
+1. Criar, ler, atualizar e excluir itens de tarefas usando a API.
+2. Marcar um item como favorito.
+3. Definir uma cor para cada item de tarefa.
+4. Exibir a lista de tarefas de maneira responsiva e visualmente atraente.
+5. Capacidade de filtrar por itens e cores favoritos.
+6. Itens favoritos são exibidos no topo da lista.
 
-O [repositório de backend](https://github.com/corelabbr/corelab-api-challenge-php)
+## Diferenciais do Projeto
 
-Se você se sentir mais confortável, pode escolher outro framework PHP e nos mostrar suas habilidades.
+- **Experiência de Usuário Aprimorada**: Interface responsiva e intuitiva para facilitar a organização das tarefas.
+- **Eficiência no Desenvolvimento**: Utiliza tecnologias modernas como React 19, Sass e Mantine para um código limpo e escalável.
+- **Alto Desempenho**: Construído com Vite, garantindo carregamento rápido e otimizado.
+- **Testes End-to-End**: Garantia de qualidade com testes automatizados usando Playwright.
+- **Melhores Práticas de Desenvolvimento**: Padronização de código com ESLint e Prettier, assegurando manutenção eficiente.
 
-### O layout
-Abra o [mockup do layout](https://www.figma.com/file/sQrUVHTlyogq3qGdkqGTXN/mockup?node-id=7%3A2&t=ANTOTiqjqGWYuoUr-0) na versão desktop e mobile e siga este design o máximo possível.
+## Tecnologias Utilizadas
 
-### O aplicativo deve ter as seguintes funcionalidades:
+- React 19
+- Sass
+- Mantine
+- Axios
+- React Query
+- Playwright (para testes e2e)
+- ESLint & Prettier
+- TypeScript
+- Vite
 
-1. Os usuários devem ser capazes de criar, ler, atualizar e excluir itens de tarefas usando a API.
-2. Os usuários devem poder marcar um item como favorito.
-3. Os usuários devem poder definir uma cor para cada item de tarefa.
-4. O front-end do React deve exibir a lista de tarefas do usuário de maneira responsiva e visualmente atraente, com a capacidade de filtrar por itens e cores favoritos.
-5. Os itens favoritos devem ser exibidos no topo da lista.
+## Instalação e Configuração
 
-### Requerimentos técnicos:
-1. A API de back-end deve ser construída na estrutura PHP Laravel e usar um banco de dados de sua escolha (por exemplo, MySQL, PostgreSQL, etc.).
-2. O front-end deve ser construído em React e usar ferramentas modernas de desenvolvimento web e melhores práticas.
-3. O aplicativo deve ser responsivo e visualmente atraente.
+Para rodar o projeto localmente, siga os seguintes passos:
 
-### Entregáveis:
-1. Um link para um repositório GitHub contendo o código-fonte completo do projeto.
-2. Uma descrição por escrito de como configurar e executar o aplicativo localmente.
+1. Clone o repositório:
 
-### Critério de avaliação:
-1. Qualidade do Código
-2. Formato do código
-3. Desempenho do código
-4. Design de front-end
-5. Se o seu código é fácil de entender
-6. Abordagem Mobile First
-7. Responsabilidade do Código
-8. Trabalho de Funcionalidades
-9. Capacidade de resposta
-10. O aplicativo atende aos requisitos de funcionalidade listados acima?
-11. O código está bem organizado, fácil de ler e bem documentado?
-12. As ferramentas modernas de desenvolvimento da Web e as melhores práticas são usadas?
-13. O aplicativo é visualmente atraente e responsivo?
+   ```sh
+   git clone https://github.com/Tielson/corelab-web-challenge.git
+   ```
 
-### Backend
-Repositório:
-1. PHP: ^7.4
-2. Laravel: ^8.0
-3. Banco de dados: Escolha o seu, você pode até usar PostgreSQL.
+2. Acesse a pasta do projeto:
 
-### Frontend
-Repositório:
-1. Node: ^16.15.0
-2. NPM: ^8.5.5
-3. Framework: React TS
-4. Sass ou outro pré-processador
+   ```sh
+   cd corelab-web-challenge
+   ```
 
-### Quer nos impressionar ainda mais?
-Se você se sentir confortável e quiser nos impressionar ainda mais, você pode fazer o seguinte:
+3. Instale as dependências:
 
-1. Trabalhe nas tipagens e interfaces corretas
-2. Trabalhe nas regras do eslint
-3. Trabalhe com configuração do prettier
-4. Trabalhe em containers docker
-5. Trabalhe em testes
-6. Trabalhe em CI/CD
+   ```sh
+   npm install
+   ```
 
-### O que fazer quando terminar?
+4. Inicie o servidor de desenvolvimento:
 
-Crie um arquivo PULL_REQUEST.md onde você irá descrever o que você fez e como com o máximo de detalhes possível. Sinta-se à vontade para adicionar vídeos para uma melhor explicação.
+   ```sh
+   npm start
+   ```
 
-Crie uma nova solicitação pull usando o mesmo nome de ramificação para back-end e front-end
+O aplicativo estará disponível em `http://localhost:3000`.
 
-Envie-nos os pull requests e pronto!
+## Testes End-to-End (E2E)
 
-#### Boa sorte! O céu é o limite 🚀
+Este projeto utiliza o Playwright para testes end-to-end. Para executar os testes, use:
+
+```sh
+npm test
+```
+
+### Testes Implementados:
+
+- Verifica se o título da página está correto.
+- Confirma se o nome da aplicação é exibido.
+- Filtragem correta de notas.
+- Adicionar e remover notas dos favoritos.
+- Edição de notas.
+- Mudança de cor dos cards.
+- Criação e deleção de notas.
+
+Confira o vídeo com a execução dos testes E2E: [Link](https://drive.google.com/file/d/1l1ghNjuwVdiAHrY74Hgaw7zfT5pTdnqU/view?usp=sharing)
+
+## Contribuição
+
+Se deseja contribuir para este projeto, siga estas etapas:
+
+1. Fork o repositório
+2. Crie um branch para sua feature (`git checkout -b feature-nova`)
+3. Commit suas modificações (`git commit -m 'Adiciona nova funcionalidade'`)
+4. Envie suas alterações (`git push origin feature-nova`)
+5. Abra um Pull Request
+
+## Por que este projeto se destaca?
+
+O **Corelab Web Challenge** foi desenvolvido seguindo as melhores práticas de desenvolvimento e usabilidade. Ele não apenas resolve um problema comum de organização de tarefas, mas também proporciona uma experiência fluida e intuitiva. Com um código bem estruturado e testado, é um excelente exemplo de como aliar qualidade técnica e facilidade de uso.
+
