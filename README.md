@@ -1,4 +1,4 @@
-# Corelab Web Challenge
+# To-do list
 
 Este é um projeto de gerenciamento de tarefas desenvolvido com React, Sass e Mantine. O aplicativo permite criar, ler, atualizar e excluir itens de tarefas, além de marcar favoritos e definir cores para cada tarefa.
 
@@ -90,8 +90,3 @@ Se deseja contribuir para este projeto, siga estas etapas:
 3. Commit suas modificações (`git commit -m 'Adiciona nova funcionalidade'`)
 4. Envie suas alterações (`git push origin feature-nova`)
 5. Abra um Pull Request
-
-## Por que este projeto se destaca?
-
-O **Corelab Web Challenge** foi desenvolvido seguindo as melhores práticas de desenvolvimento e usabilidade. Ele não apenas resolve um problema comum de organização de tarefas, mas também proporciona uma experiência fluida e intuitiva. Com um código bem estruturado e testado, é um excelente exemplo de como aliar qualidade técnica e facilidade de uso.
-
