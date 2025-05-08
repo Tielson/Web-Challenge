@@ -1,5 +1,7 @@
 # To-do list
 
+![Texto alternativo](https://i.imgur.com/hg0ozOs.png) ![Texto alternativo](https://i.imgur.com/P0w27Ji.png)
+
 Este é um projeto de gerenciamento de tarefas desenvolvido com React, Sass e Mantine. O aplicativo permite criar, ler, atualizar e excluir itens de tarefas, além de marcar favoritos e definir cores para cada tarefa.
 
 ## Funcionalidades
